@@ -40,7 +40,7 @@ function proxLevel() {
     if (level == 1) {
         level = 2;
         leveltxt.innerHTML = `Nível - 2`;
-        leveln.innerHTML = `Advinhe o número de 0 a 20`;
+        leveln.innerHTML = `Advinhe o número de 0 a 15`;
         img.src = 'https://svgshare.com/i/VPg.svg';
         tentativas = 4;
         rand = random();
@@ -49,7 +49,7 @@ function proxLevel() {
     } else if (level == 2) {
         level = 3;
         leveltxt.innerHTML = `Nível - 3`;
-        leveln.innerHTML = `Advinhe o número de 0 a 30`;
+        leveln.innerHTML = `Advinhe o número de 0 a 20`;
         img.src = 'https://svgshare.com/i/VNN.svg';
         tentativas = 3;
         rand = random();
@@ -77,10 +77,10 @@ function random() {
             var rand = Math.floor(Math.random() * 10);
             return rand;
         case 2:
-            var rand = Math.floor(Math.random() * 20);
+            var rand = Math.floor(Math.random() * 15);
             return rand;
         case 3:
-            var rand = Math.floor(Math.random() * 30);
+            var rand = Math.floor(Math.random() * 20);
             return rand;
     }
 }
