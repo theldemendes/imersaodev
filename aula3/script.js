@@ -42,7 +42,7 @@ function proxLevel() {
         leveltxt.innerHTML = `Nível - 2`;
         leveln.innerHTML = `Advinhe o número de 0 a 20`;
         img.src = 'https://svgshare.com/i/VPg.svg';
-        tentativas = 3;
+        tentativas = 4;
         rand = random();
         t.innerHTML = `<span style="color: #067d00;">Você acertou e avançou de nível!</span>`;
         t.innerHTML += `<br><span style="color: #067d00;">Você tem ${tentativas} tentativas nesse nivel!</span>`;
@@ -51,10 +51,10 @@ function proxLevel() {
         leveltxt.innerHTML = `Nível - 3`;
         leveln.innerHTML = `Advinhe o número de 0 a 30`;
         img.src = 'https://svgshare.com/i/VNN.svg';
-        tentativas = 1;
+        tentativas = 3;
         rand = random();
         t.innerHTML = `<span style="color: #067d00;">Você acertou e avançou de nível!</span>`;
-        t.innerHTML += `<br><span style="color: #067d00;">Você tem apenas <span style="color: #7d0000;">uma tentativa</span> nesse nivel!</span>`;
+        t.innerHTML += `<br><span style="color: #067d00;">Você tem ${tentativas} tentativas nesse nivel!</span>`;
     } else {
         game.style.display = "none";
         win.style.display = "unset";
