@@ -35,6 +35,7 @@ function proxLevel() {
     let t = document.getElementById('text-t');
     let win = document.getElementById('win');
     let game = document.getElementById('game');
+    let audio = new Audio('https://www.mboxdrive.com/vitoria.mp3');
 
     if (level == 1) {
         level = 2;
@@ -57,6 +58,8 @@ function proxLevel() {
     } else {
         game.style.display = "none";
         win.style.display = "unset";
+        audio.play();
+        audio.volume = 0.05;
     }
 }
 
