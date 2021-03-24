@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Imersão Dev - Aula 03</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Mentalista</h1>
+    </div>
+
+    <div class="container">
+        <div class="game" id="game">
+            <img class="img" src="https://svgshare.com/i/VLB.svg" alt="">
+            <div class="level" id="level-txt">
+                Nível - 1
+            </div>
+            <div class="text" id="level-n">
+                Advinhe o número de 0 a 10
+            </div>
+            <div style="margin-top: 1px; font-weight: 500;" id="text-t">
+                <br> <br>
+            </div>
+            <div class="input-div">
+                <input class="input" type="number" name="" id="input" min="0">
+                <br>
+                <input class="button" type="button" value="Advinhar" onclick="advinhar()">
+            </div>
+            <img class="dif" src="https://svgshare.com/i/VNS.svg" alt="" id="dif">
+        </div>
+        <div class="gameover" id="gameover">
+            <img class="img" src="https://svgshare.com/i/VPM.svg" alt="">
+            <h1 class="level">Game Over</h1>
+            <input class="button-reload" type="button" value="Jogar Novamente" onclick="document.location.reload()">
+        </div>
+        <div class="win" id="win">
+            <img class="img" src="https://svgshare.com/i/VPE.svg" alt="">
+            <h1 class="level">Parabéns você ganhou!!!</h1>
+            <input class="button-reload" type="button" value="Jogar Novamente" onclick="document.location.reload()">
+        </div>
+    </div>
+
+    <footer class="imersao-footer">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg"
+            class="imersao-logo" alt="" draggable="false">
+    </footer>
+
+    <footer class="alura-footer">
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"
+                draggable="false">
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
