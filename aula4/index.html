@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body onload="load()">
+    <header>
+      <img
+        class="logo-aluraflix"
+        src="https://i.imgur.com/CxMwyTO.png"
+        alt=""
+      />
+      <div class="header-txt">
+        <span class="text-ini" id="text-ini" onclick="mudar('inicio')">
+          Inicio
+        </span>
+        <span class="text-fav" id="text-fav" onclick="mudar('favoritos')">
+          Favoritos
+        </span>
+      </div>
+    </header>
+
+    <div class="inicio" id="inicio">
+      <div class="itens-ini" id="itens-inicio"></div>
+    </div>
+
+    <div class="favoritos" id="favoritos">
+      <div class="itens-fav" id="itens-fav">
+        <span id="nada"><span/>
+      </div>
+    </div>
+
+    <footer class="imersao-footer">
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+        class="imersao-logo"
+        alt=""
+        draggable="false"
+      />
+    </footer>
+
+    <footer class="alura-footer">
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+          alt=""
+          class="alura-logo"
+          draggable="false"
+        />
+      </a>
+    </footer>
+    <script src=" script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/44b48ae2f6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
