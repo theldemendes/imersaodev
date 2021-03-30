@@ -13,4 +13,4 @@ Projeto feito durante a [Imersão Dev](https://imersao.dev) da [Alura](https://a
 - [ ] [Aula 07](https://imersaodev.vercel.app/aula7)
 - [ ] [Aula 08](https://imersaodev.vercel.app/aula8)
 - [ ] [Aula 09](https://imersaodev.vercel.app/aula9)
-- [ ] [Aula 010](https://imersaodev.vercel.app/aula10)
+- [ ] [Aula 10](https://imersaodev.vercel.app/aula10)
