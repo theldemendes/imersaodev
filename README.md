@@ -4,12 +4,12 @@ Projeto feito durante a [Imersão Dev](https://imersao.dev) da [Alura](https://a
 
 ## Links para os projetos
 
-- [✔] [Aula 01](https://https://imersaodev.vercel.app/aula1)
+- [x] [Aula 01](https://https://imersaodev.vercel.app/aula1)
 - [ ] [Aula 02](https://https://imersaodev.vercel.app/aula2)
-- [✔] [Aula 03](https://https://imersaodev.vercel.app/aula3)
-- [✔] [Aula 04](https://https://imersaodev.vercel.app/aula4)
+- [x] [Aula 03](https://https://imersaodev.vercel.app/aula3)
+- [x] [Aula 04](https://https://imersaodev.vercel.app/aula4)
 - [ ] [Aula 05](https://https://imersaodev.vercel.app/aula5)
-- [✔] [Aula 06](https://https://imersaodev.vercel.app/aula6)
+- [x] [Aula 06](https://https://imersaodev.vercel.app/aula6)
 - [ ] [Aula 07](https://https://imersaodev.vercel.app/aula7)
 - [ ] [Aula 08](https://https://imersaodev.vercel.app/aula8)
 - [ ] [Aula 09](https://https://imersaodev.vercel.app/aula9)
