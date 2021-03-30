@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Imersão Dev - Aula 06</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Pedra Papel Ou Tesoura?</h1>
+    </div>
+
+    <div class="game" id="game">
+      <div class="div-player">
+        <h1>Você</h1>
+        <div class="res-player" id="div-res-player">
+          <i id="res-player" class="fas fa-question fa-4x"></i>
+        </div>
+        <div class="jogar">
+          <div class="button" onclick="jogar('pedra')">
+            <i class="fas fa-hand-rock fa-2x"></i>
+          </div>
+          <div class="button" onclick="jogar('papel')">
+            <i class="fas fa-hand-paper fa-2x"></i>
+          </div>
+          <div class="button" onclick="jogar('tesoura')">
+            <i class="fas fa-hand-scissors fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="div-bot">
+        <h1>Bot</h1>
+        <div class="res-bot" id="div-res-bot">
+          <i id="res-bot" class="fas fa-question fa-4x"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="div-tabela">
+      <div class="tabela-player">
+        <h2>Você</h2>
+        <div class="res-tabela">
+          <span id="player-vitorias">Vitórias: 0</span>
+          <br />
+          <span id="player-derrotas">Derrotas: 0</span>
+          <br />
+          <span id="player-empates">Empates: 0</span>
+          <br />
+          <span id="player-pontos">Pontos: 0</span>
+        </div>
+      </div>
+      <hr />
+      <div class="tabela-bot">
+        <h2>Bot</h2>
+        <div class="res-tabela">
+          <span id="bot-vitorias">Vitórias: 0</span>
+          <br />
+          <span id="bot-derrotas">Derrotas: 0</span>
+          <br />
+          <span id="bot-empates">Empates: 0</span>
+          <br />
+          <span id="bot-pontos">Pontos: 0</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="alura-footer">
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+          alt=""
+          class="alura-logo"
+          draggable="false"
+        />
+      </a>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/44b48ae2f6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
