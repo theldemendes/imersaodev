@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Imersão Dev - Aula 01</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="title">
-        <img src="https://svgshare.com/i/VJ5.svg" alt="" draggable="false">
+      <img src="https://svgshare.com/i/VJ5.svg" alt="" draggable="false" />
     </div>
 
     <section class="container">
+      <div class="div-select">
+        <select class="select" name="" id="select" onchange="convert()">
+          <option value="0">⠀⠀⠀$ > R$</option>
+          <option value="1">⠀⠀⠀R$ > $</option>
+          <option value="2">⠀⠀⠀°F > °C</option>
+          <option value="3">⠀⠀⠀°C > °F</option>
+          <option value="4">Ano-Luz > Km</option>
+          <option value="5">Km > Ano-Luz</option>
+        </select>
+      </div>
 
-        <div class="div-select">
-            <select class="select" name="" id="select" onchange="convert()">
-                <option value="0">⠀⠀⠀$ > R$</option>
-                <option value="1">⠀⠀⠀R$ > $</option>
-                <option value="2">⠀⠀⠀°F > °C</option>
-                <option value="3">⠀⠀⠀°C > °F</option>
-                <option value="4">Ano-Luz > Km</option>
-                <option value="5">Km > Ano-Luz</option>
-            </select>
-        </div>
+      <div class="div-img">
+        <img
+          class="img"
+          id="img"
+          src="https://svgshare.com/i/VJU.svg"
+          alt=""
+          draggable="false"
+        />
+      </div>
 
-        <div class="div-img">
-            <img class="img" id="img" src="https://svgshare.com/i/VJU.svg" alt="" draggable="false">
-        </div>
+      <div class="div-text">Insira o valor para converter</div>
 
-        <div class="div-text">
-            Insira o valor para converter
-        </div>
+      <div class="div-input">
+        <input class="input" type="number" id="input" oninput="convert()" />
+      </div>
 
-        <div class="div-input">
-            <input class="input" type="number" id="input" oninput="convert()">
-        </div>
+      <div class="res-text" id="res-text"></div>
 
-        <div class="res-text" id="res-text">
-
-        </div>
-
-        <div class="res-value" id="res-value">
-
-        </div>
+      <div class="res-value" id="res-value"></div>
     </section>
 
     <footer class="imersao-footer">
-        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
-            class="imersao-logo" alt="" draggable="false">
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="imersao-logo"
+        alt=""
+        draggable="false"
+      />
     </footer>
 
     <footer class="alura-footer">
-        <a href="https://alura.com.br/" target="_blank">
-            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"
-                draggable="false">
-        </a>
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+          alt=""
+          class="alura-logo"
+          draggable="false"
+        />
+      </a>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
