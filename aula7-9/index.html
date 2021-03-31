@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Imersão Dev - Aula 07,08,09</title>
+  </head>
+  <body>
+    <div class="title"><h2>Super Order Trunfo</h2></div>
+    <div class="game">
+      <div class="player-card" id="player-card">
+        <h3>Você</h3>
+        <img
+          draggable="false"
+          src="https://svgshare.com/i/VfE.svg"
+          alt=""
+          id="img-card-player"
+        />
+        <span id="card-player-nome" class="player-card-nome"></span>
+        <span id="card-player-aFor" class="player-card-aFor"></span>
+        <span id="card-player-aDef" class="player-card-aDef"></span>
+        <span id="card-player-aPod" class="player-card-aPod"></span>
+      </div>
+      <div class="botoes-div">
+        <div class="res" id="res">Você Ganhou</div>
+        <div style="visibility: hidden" id="inputs">
+          <p style="font-weight: 500">Escolha Um Atributo</p>
+          Força
+          <input type="radio" value="forca" name="input" id="" checked />
+          Defesa
+          <input type="radio" value="defesa" name="input" id="" />
+          Poder
+          <input type="radio" value="poder" name="input" id="" />
+        </div>
+        <div class="botoes">
+          <button id="bJogar" onclick="sortearCarta()">Jogar</button>
+          <button id="bJogarCarta" onclick="jogar()" style="display: none">
+            Jogar Carta
+          </button>
+          <button
+            id="bJogarNovamente"
+            onclick="jogarNovamente()"
+            style="display: none"
+          >
+            Jogar Novamente
+          </button>
+        </div>
+      </div>
+      <div class="bot-card" id="bot-card">
+        <h3>Bot</h3>
+        <img
+          draggable="false"
+          src="https://svgshare.com/i/VfE.svg"
+          alt=""
+          id="img-card-bot"
+        />
+        <span id="card-bot-nome" class="bot-card-nome"></span>
+        <span id="card-bot-aFor" class="bot-card-aFor"></span>
+        <span id="card-bot-aDef" class="bot-card-aDef"></span>
+        <span id="card-bot-aPod" class="bot-card-aPod"></span>
+      </div>
+    </div>
+
+    <footer class="imersao-footer">
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png"
+        class="imersao-logo"
+        alt=""
+        draggable="false"
+      />
+    </footer>
+    <footer class="alura-footer">
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+          alt=""
+          class="alura-logo"
+          draggable="false"
+        />
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
