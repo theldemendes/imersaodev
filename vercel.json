@@ -1,15 +1,15 @@
 {
   "redirects": [
     { "source": "/", "destination": "https://github.com/xTodi/imersaodev" },
-    { "source": "/aula1", "destination": "/aula1/index.html" },
-    { "source": "/aula2", "destination": "/aula2/index.html" },
-    { "source": "/aula3", "destination": "/aula3/index.html" },
-    { "source": "/aula4", "destination": "/aula4/index.html" },
-    { "source": "/aula5", "destination": "/aula5/index.html" },
-    { "source": "/aula6", "destination": "/aula6/index.html" },
-    { "source": "/aula7", "destination": "/aula7/index.html" },
-    { "source": "/aula8", "destination": "/aula8/index.html" },
-    { "source": "/aula9", "destination": "/aula9/index.html" },
-    { "source": "/aula10", "destination": "/aula10/index.html" }
+    { "source": "/aula1", "destination": "/aula1" },
+    { "source": "/aula2", "destination": "/aula2" },
+    { "source": "/aula3", "destination": "/aula3" },
+    { "source": "/aula4", "destination": "/aula4" },
+    { "source": "/aula5", "destination": "/aula5" },
+    { "source": "/aula6", "destination": "/aula6" },
+    { "source": "/aula7", "destination": "/aula7-9" },
+    { "source": "/aula8", "destination": "/aula7-9" },
+    { "source": "/aula9", "destination": "/aula7-9" },
+    { "source": "/aula10", "destination": "/aula10" }
   ]
 }
