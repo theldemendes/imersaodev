@@ -1,6 +1,7 @@
 body {
   background-color: #313131;
   font-family: 'Roboto Mono', monospace;
+  user-select: none;
 }
 
 section {
