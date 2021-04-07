@@ -11,5 +11,8 @@
     { "source": "/aula8", "destination": "/aula7-9/index.html" },
     { "source": "/aula9", "destination": "/aula7-9/index.html" },
     { "source": "/aula10", "destination": "/aula10/index.html" }
-  ]
+  ],
+  "github": {
+    "silent": true
+  }
 }
