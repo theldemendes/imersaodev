@@ -1,0 +1,34 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #313131;
+  user-select: none;
+}
+.title {
+  text-align: center;
+  color: white;
+}
+.wip {
+  text-align: center;
+  margin: 19%;
+}
+
+.logo {
+  text-align: center;
+}
+.imersao-logo {
+  width: 277px;
+  height: 55px;
+}
+.imersao-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+.alura-footer {
+  float: right;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
